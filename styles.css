@@ -1,0 +1,109 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header {
+    background-color: #3b5998;
+    color: #fff;
+    padding: 10px 0;
+}
+
+header img {
+    vertical-align: middle;
+}
+
+header input[type="text"] {
+    width: 300px;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    margin: 0 10px;
+}
+
+header button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+nav {
+    background-color: #f0f2f5;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+main {
+    padding: 20px 0;
+}
+
+.new-post {
+    margin-bottom: 20px;
+}
+
+.new-post textarea {
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.new-post button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 0;
+    cursor: pointer;
+}
+
+.feed {
+    background-color: #f0f2f5;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.post {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.post img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
